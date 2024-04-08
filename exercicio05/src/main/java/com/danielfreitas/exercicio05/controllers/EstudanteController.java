@@ -15,8 +15,7 @@ public class EstudanteController {
     @GetMapping
     public ResponseEntity<Object> estudanteInfo() {
         EstudanteEntity estudanteEntity = new EstudanteEntity();
-        String estudante = estudanteEntity.estudante();
-        return ResponseEntity.status(HttpStatus.OK).body(estudante);
+        return ResponseEntity.status(HttpStatus.OK).body(estudanteEntity);
     }
     
 }
