@@ -12,7 +12,7 @@
 	<artifactId>exercicio05</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>exercicio05</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Avaliação 2 de backend meu tema é clima</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>
@@ -57,6 +57,19 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.8.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.17.0</version>
 		</dependency>
 	</dependencies>
 
