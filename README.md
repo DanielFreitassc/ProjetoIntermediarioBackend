@@ -38,4 +38,4 @@ GET
 ```
 http://localhost:8080/ajuda
 ```
-# Caso Queira ver a doc e usar o swagger para as requisições: [LINK](http://localhost:8080/swagger-ui/index.html#/)🚀🚀
+# Caso Queira ver a doc e usar o swagger para as requisições: [LINK](http://localhost:8080/swagger-ui/index.html#/)🚀
