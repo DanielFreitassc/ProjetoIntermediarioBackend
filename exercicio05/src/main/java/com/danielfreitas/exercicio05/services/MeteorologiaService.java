@@ -63,8 +63,8 @@ public class MeteorologiaService {
     }
 
     public String getMessage() {
-
-        Optional<UsuarioEntity> user = usuarioRepository.findById(1L);
+        
+        Optional<UsuarioEntity> user = usuarioRepository.findLastUser();
         String nome = user.map(UsuarioEntity::getNome).orElse("sem nome cadastre seu nome na url http://localhost:8080/usuario");
         
         if (temperatures.isEmpty()) {
