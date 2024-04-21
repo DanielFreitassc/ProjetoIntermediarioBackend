@@ -5,7 +5,7 @@ Path para consumo da api
 
 # Cadastro de usuario para receber um mensagem personalizada
 POST
-```
+```json
 http://localhost:8080/usuario
 ```
 ```
@@ -15,7 +15,7 @@ http://localhost:8080/usuario
 ```
 # Atualiza dados do usuario.
 PUT
-```
+```json
 http://localhost:8080/usuario/{id}
 ```
 ```
@@ -25,17 +25,17 @@ http://localhost:8080/usuario/{id}
 ```
 # Remover usuario
 DELETE
-```
+```json
 http://localhost:8080/usuario/{id}
 ```
 # Buscar a messagem personalizada
 GET
-```
+```json
 http://localhost:8080/tempo
 ```
 # Busca o aluno e o tema da api
 GET
-```
+```json
 http://localhost:8080/ajuda
 ```
 # Caso Queira ver a doc e usar o swagger para as requisições: [LINK](http://localhost:8080/swagger-ui/index.html#/)🚀
