@@ -8,7 +8,7 @@ POST
 ```json
 http://localhost:8080/usuario
 ```
-```
+```json
 {
     "nome":"nome sobrenome"
 }
@@ -18,7 +18,7 @@ PUT
 ```json
 http://localhost:8080/usuario/{id}
 ```
-```
+```json
 {
     "nome":"nome sobrenome atualizado"
 }
