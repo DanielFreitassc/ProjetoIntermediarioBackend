@@ -11,7 +11,7 @@ http://localhost:8080/usuario
 > Body Parameters
 ```json
 {
-    "nome":"nome sobrenome"
+    "nome":"Fulano de Tal"
 }
 ```
 > Response (201 CREATED)
@@ -24,7 +24,7 @@ http://localhost:8080/usuario/{id}
 > Body Parameters
 ```json
 {
-    "nome":"nome sobrenome atualizado"
+    "nome":"Bertrano de Tal"
 }
 ```
 > Response (200 OK)
@@ -42,6 +42,9 @@ GET
 http://localhost:8080/tempo
 ```
 > Response (200 OK)
+> 
+**Olá, Fulano de Tal! Temperatura atual: -0.1°C. Está muito frio lá fora. Vista-se com roupas quentes!**
+
 ---
 # Busca o aluno e o tema da api
 GET
@@ -49,5 +52,11 @@ GET
 http://localhost:8080/ajuda
 ```
 > Response (200 OK)
+```json
+{
+    "nome": "Daniel Freitas",
+    "projeto": "Serviço de meteorologia"
+}
+```
 # Caso Queira ver a doc e usar o swagger para as requisições: [LINK](http://localhost:8080/swagger-ui/index.html#/)🚀
 
