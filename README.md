@@ -5,11 +5,11 @@ Path para consumo da api
 
 # Cadastro de usuario para receber um mensagem personalizada
 POST
-```json
+```yml
 http://localhost:8080/usuario
 ```
 > Body Parameters
-```json
+```yml
 {
     "nome":"Fulano de Tal"
 }
@@ -18,11 +18,11 @@ http://localhost:8080/usuario
 ---
 # Atualiza dados do usuario.
 PUT
-```json
+```yml
 http://localhost:8080/usuario/{id}
 ```
 > Body Parameters
-```json
+```yml
 {
     "nome":"Bertrano de Tal"
 }
@@ -31,14 +31,14 @@ http://localhost:8080/usuario/{id}
 ---
 # Remover usuario
 DELETE
-```json
+```yml
 http://localhost:8080/usuario/{id}
 ```
 > Response (204 NO CONTENT)
 ---
 # Buscar a messagem personalizada
 GET
-```json
+```yml
 http://localhost:8080/tempo
 ```
 > Response (200 OK)
@@ -48,11 +48,11 @@ http://localhost:8080/tempo
 ---
 # Busca o aluno e o tema da api
 GET
-```json
+```yml
 http://localhost:8080/ajuda
 ```
 > Response (200 OK)
-```json
+```yml
 {
     "nome": "Daniel Freitas",
     "projeto": "Serviço de meteorologia"
